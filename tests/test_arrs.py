@@ -1,5 +1,8 @@
 from utils import arrs
 
+"""
+Все функции покрыты тестами на 100%. Данная строка создана для осуществления merge.
+"""
 
 def test_get():
     assert arrs.get([1, 2, 3], 1, "test") == 2
